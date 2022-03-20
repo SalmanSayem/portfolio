@@ -1,0 +1,703 @@
+/* common css start */
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p, a, h1, h2, h3, h4, h5, h6, span, i, button{
+    margin: 0;
+    line-height: 1;
+}
+/* common css end */
+
+/* Navber Part Start */
+#navber{
+    padding: 28px 0;
+    background: #ffffff;
+    width: 100%;
+    transition: all linear .3s;
+    z-index: 999;
+}
+#navber.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+#navber .logo{
+    width: 172px;
+    transition: all linear .3s;
+}
+#navber.sticky .logo{
+    width: 140px;
+}
+#navber .nav-link{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    padding: 15px 11px;
+    transition: all linear .3s;
+}
+#navber.sticky .nav-link{
+    padding: 10px 11px;
+}
+#navber .nav-link:hover{
+    color: #08d665;
+}
+#navber .shape{
+    position: relative;
+}
+#navber .navber_icon{
+    color: #08d665;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+#navber .shape::before{
+    content: "";
+    background: url(../images/shape1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 162px;
+    height: 88px;
+    position: absolute;
+    top: -30px;
+    left: -143px;
+}
+#navber .hire_me{
+    padding: 15px 32px;
+    background: #08d665;
+    border: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 18px;
+    border-radius: 25px;
+    transition: all linear .3s;
+}
+.hire_me{
+    padding: 15px 32px;
+    background: #08d665;
+    border: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 18px;
+    border-radius: 25px;
+    transition: all linear .3s;
+}
+#navber.sticky .hire_me{
+    padding: 10px 25px;
+}
+#navber .hire_me:hover{
+    background: #ffffff;
+    color: #08d665;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+}
+.hire_me:hover{
+    background: #ffffff;
+    color: #08d665;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+}
+/* Navber Part End */
+
+/* Banner Part Start */
+#banner{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #e6fbef;
+}
+#banner .text_part h4{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 33px;
+    position: relative;
+}
+#banner .text_part h4::before{
+    content: "";
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #08d665;
+    position: absolute;
+    left: 36%;
+    top: -47px;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+#banner .text_part h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 33px;
+    text-transform: uppercase;
+    position: relative;
+}
+#banner .text_part h1::after{
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px dotted #08d665;
+    position: absolute;
+    right: -38px;
+    top: 28px;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+#banner .text_part h1::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px dotted #08d665;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+#banner .text_part h1 .name{
+    color: #08d665;
+}
+#banner .text_part p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #2f2e2e;
+    font-weight: 400;
+    width: 468px;
+    line-height: 32px;
+    margin-bottom: 33px;
+}
+#banner .icon_part{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+#banner .icon{
+    display: flex;
+    gap: 15px;
+}
+#banner .icon a{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #08d665;
+    border-radius: 50%;
+    color: #2f2e2e;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+    background-color: #ffffff;
+}
+#banner .icon a:hover{
+    background: #08d665;
+    color: #ffffff;
+}
+#banner .hire_me{
+    margin: 0;
+    position: relative;
+}
+#banner .hire_me::before{
+    content: "";
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: 3px dotted #08d665;
+    position: absolute;
+    bottom: -46px;
+    left: -5px;
+    z-index: -9;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+#banner .img_part{
+    position: relative;
+}
+#banner .img_part::before{
+    content: "";
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #08d665;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+#banner .img_part::after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px dashed #08d665;
+    position: absolute;
+    top: -4px;
+    left: -61px;
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+}
+#banner .img_part .img img{
+    width: 90%;
+}
+#banner .img_part .img::before{
+    content: "";
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #08d665;
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+#banner .img_part .img::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px dashed #08d665;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+/* Banner Part End */
+
+/* About Part Start */
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec_heading{
+    margin-bottom: 60px;
+}
+.sec_heading .head_text{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.sec_heading .head_text .green{
+    color: #08d665;
+}
+.sec_heading img{
+    width: 245px;
+}
+
+#about .img_part{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.336);
+    position: relative;
+}
+#about .img_part::after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid #08d665;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    -webkit-animation: rotating2 4s linear infinite;
+    -moz-animation: rotating2 4s linear infinite;
+    -ms-animation: rotating2 4s linear infinite;
+    -o-animation: rotating2 4s linear infinite;
+    animation: rotating2 4s linear infinite;
+    z-index: -9;
+}
+#about .img_part::before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px dotted #08d665;
+    position: absolute;
+    bottom: -30px;
+    right: -40px;
+    -webkit-animation: rotating2 4s linear infinite;
+    -moz-animation: rotating2 4s linear infinite;
+    -ms-animation: rotating2 4s linear infinite;
+    -o-animation: rotating2 4s linear infinite;
+    animation: rotating2 4s linear infinite;
+    z-index: -9;
+}
+#about .img_part .experience{
+    width: 95px;
+    height: 95px;
+    border: 4px solid #08d665;
+    transform: rotate(45deg) scale(.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: -65px;
+}
+#about .img_part .experience p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+}
+#about .img_part .experience p span{
+    font-size: 16px;
+}
+#about .text_part h4{
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+#about .text_part h5{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #313131;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+#about .text_part p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #6a6a6a;
+    font-weight: 300;
+    width: 468px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+#about .text_part .connect{
+    display: flex;
+    gap: 20px;
+}
+#about .text_part .connect a{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+#about .text_part .connect a:hover{
+    color: #08d665;
+}
+#about .text_part .connect a span{
+    font-size: 13px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #08d665;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 5px;
+    transition: all linear .3s;
+}
+#about .text_part .connect a:hover span{
+    color: #ffffff;
+    background: #08d665;
+}
+#about .text_part .button{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+#about .text_part .button button{
+    margin: 0;
+}
+
+
+@keyframes rotating2 {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+/* About Part End */
+
+/* Service Part Start */
+#service{
+    padding: 70px 0;
+    background: #e6fbef;
+}
+#service .service_item{
+    padding: 50px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.185);
+    border-radius: 0 20px;
+}
+#service .service_item .icon{
+    width: 62px;
+    height: 62px;
+    border: 2px dotted #08d665;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#service .service_item h4{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    padding-top: 34px;
+    padding-bottom: 10px;
+}
+#service .service_item p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #6a6a6a;
+    font-weight: 300;
+}
+/* Service Part End */
+
+/* Portfolio Part Start */
+#portfolio{
+    padding: 100px 0;
+}
+#portfolio .po_item .img{
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .po_item .img img{
+    width: 100%;
+    transition: all linear .3s;
+}
+#portfolio .po_item:hover .img img{
+    transform: scale(1.2);
+}
+#portfolio .po_item .img .overlay{
+    width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(8, 214, 101, 0.5);
+}
+#portfolio .po_item .img .overlay p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+#portfolio .achivment{
+    padding-top: 100px;
+}
+#portfolio .achivment .item h4{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+#portfolio .achivment .item h4 span{
+    color: #08d665;
+}
+#portfolio .achivment .item p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Portfolio Part End */
+
+/* Contact Part Start */
+#contact{
+    padding: 60px 0;
+    background: #e6fbef;
+}
+#contact form input{
+    padding: 10px;
+    border: 1px solid #08d665;
+    line-height: 1;
+    border-radius: 15px;
+}
+#contact form input::placeholder{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#contact form textarea::placeholder{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#contact form textarea{
+    padding: 10px;
+    border: 1px solid #08d665;
+    line-height: 1;
+    border-radius: 15px;
+}
+#contact form button{
+    padding: 15px 30px;
+    border: none;
+    background: #08d665;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+#contact form button:hover{
+    background: #ffffff;
+    color: #08d665;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+}
+/* Contact Part End */
+
+/* Blog Part Start */
+#blog{
+    padding: 100px 0;
+}
+#blog .blog_item{
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.30);
+}
+#blog .blog_item .img img{
+    width: 100%;
+}
+#blog .blog_item .text{
+    padding: 25px 35px 15px;
+}
+#blog .blog_item .text h4{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #08d665;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#blog .blog_item .text p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #6a6a6a;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#blog .blog_item .text a{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    padding: 12px;
+    border: 1px solid #08d665;
+    border-radius: 30px;
+    transition: all linear .3s;
+}
+#blog .blog_item .text a:hover{
+    background: #08d665;
+    color: #ffffff;
+}
+/* Blog Part End */
+
+/* Slider Part Start */
+#slider{
+    padding-bottom: 100px;
+}
+#slider .slider_item i{
+    font-size: 70px;
+    color: #9c9c9c;
+    transition: all linear .3s;
+}
+#slider .slider_item i:hover{
+    color: #2f2e2e;
+}
+/* Slider Part End */
+
+/* Footer Part Start */
+#footer{
+    padding: 20px 0;
+    background: #08d665;
+}
+#footer p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffffb2;
+    font-weight: 400;
+}
+#footer p a{
+    color: #ffffff;
+    transition: all linear .3s;
+}
+#footer p a:hover{
+    color: #5e5e5e;
+}
+/* Footer Part End */

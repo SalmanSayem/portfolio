@@ -1,0 +1,576 @@
+@media (max-width: 575.98px) {
+    /* Navber Part Start */
+    #navber {
+        padding: 20px 0;
+    }
+    #navber .navbar-nav{
+        align-items: flex-end;
+    }
+    #navber .logo {
+        width: 135px;
+    }
+    #navber.sticky .logo {
+        width: 110px;
+    }
+    #navber .nav-link{
+        text-align: end;
+        margin: 7px 0;
+        margin-right: 10px;
+        padding-top: 0;
+    }
+    #navber .hire_me {
+        padding: 8px 19px;
+        margin-left: 0;
+        margin: 10px 0;
+        margin-right: 10px;
+        display: inline-block;
+        text-align: end;
+    }
+    #navber.sticky .hire_me {
+        padding: 8px 19px;
+        margin-left: 0;
+        margin: 10px 0;
+        display: inline-block;
+        text-align: end;
+        margin-right: 10px;
+    }
+    /* Navber Part End */
+    
+    /* Banner Part Start */
+    #banner {
+        padding-bottom: 60px;
+    }
+    #banner .text_part h4 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    #banner .text_part h1 {
+        font-size: 38px;
+        margin-bottom: 18px;
+    }
+    #banner .text_part h1::before {
+        right: 46px;
+        top: 66px;
+    }
+    #banner .text_part h1::after {
+        border: 2px dashed #08d665;
+        right: -7px;
+        top: -21px;
+    }
+    #banner .text_part h4::before {
+        left: 57%;
+        top: -37px;
+    }
+    #banner .text_part p {
+        width: 100%;
+        line-height: 26px;
+        margin-bottom: 33px;
+    }
+    #banner .icon_part {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+    }
+    #banner .img_part {
+        margin-top: 25px;
+    }
+    #banner .img_part::after {
+        top: -2px;
+        left: 0px;
+    }
+    #banner .img_part .img::before {
+        top: 17px;
+        right: 8px;
+    }
+    /* Banner Part End */
+
+    /* About Part Start */
+    .sec_heading .head_text {
+        font-size: 32px;
+    }
+    .sec_heading img {
+        width: 196px;
+    }
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #about .img_part {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #about .img_part .experience {
+        width: 75px;
+        height: 75px;
+        border: 3px solid #08d665;
+        bottom: 0;
+        left: -46px;
+    }
+    #about .img_part .experience p {
+        font-size: 12px;
+    }
+    #about .img_part .experience p span {
+        font-size: 13px;
+    }
+    #about .img_part::after {
+        width: 65px;
+        height: 65px;
+        border: 1px solid #08d665;
+        top: -28px;
+        left: -29px;
+    }
+    #about .img_part::before {
+        bottom: -30px;
+        right: -27px;
+    }
+    #about .text_part{
+        margin-top: 40px;
+    }
+    #about .text_part h4 {
+        font-size: 27px;
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-weight: 600;
+    }
+    #about .text_part h5 {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #about .text_part p {
+        font-size: 13px;
+        width: 100%;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    #about .text_part .connect {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #about .text_part .connect a {
+        font-size: 13px;
+    }
+    #about .text_part .button {
+        gap: 12px;
+        margin-top: 20px;
+    }
+    /* About Part End */
+
+    /* Portfolio Part Start */
+    #portfolio{
+        padding-bottom: 60px;
+    }
+    #portfolio .po_item{
+        margin-bottom: 20px;
+    }
+    #portfolio .achivment{
+        padding-top: 40px;
+    }
+    #portfolio .achivment .item{
+        margin: 20px 0;
+    }
+    /* Portfolio Part End */
+
+    /* Blog Part Start */
+    #blog{
+        padding: 70px 0;
+    }
+    #blog .blog_item{
+        margin-bottom: 20px;
+    }
+    /* Blog Part End */
+
+    /* Footer Part Start */
+    #footer{
+        padding: 15px 0;
+    }
+    /* Footer Part End */
+
+    /* Navber Part Start */
+    /* Navber Part End */
+}
+@media(min-width: 576px) and (max-width: 767.98px) {
+    /* Navber Part Start */
+    #navber {
+        padding: 20px 0;
+    }
+    #navber .logo {
+        width: 135px;
+    }
+    #navber.sticky .logo {
+        width: 110px;
+    }
+    #navber .nav-link{
+        text-align: end;
+        margin: 7px 0;
+        margin-right: 10px;
+        padding-top: 0;
+    }
+    #navber .hire_me {
+        padding: 8px 19px;
+        margin-left: 0;
+        margin: 10px 0;
+        margin-right: 10px;
+        display: inline-block;
+        text-align: end;
+    }
+    #navber.sticky .hire_me {
+        padding: 8px 19px;
+        margin-left: 0;
+        margin: 10px 0;
+        display: inline-block;
+        text-align: end;
+        margin-right: 10px;
+    }
+    /* Navber Part End */
+
+    /* Banner Part Start */
+    #banner {
+        padding-bottom: 60px;
+    }
+    #banner .text_part h4 {
+        margin-bottom: 25px;
+    }
+    #banner .text_part h1 {
+        margin-bottom: 18px;
+    }
+    #banner .text_part h1::before {
+        right: 46px;
+        top: 66px;
+    }
+    #banner .text_part h1::after {
+        border: 2px dashed #08d665;
+        right: -7px;
+        top: -21px;
+    }
+    #banner .text_part h4::before {
+        left: 57%;
+        top: -37px;
+    }
+    #banner .text_part p {
+        width: 100%;
+        line-height: 26px;
+        margin-bottom: 33px;
+    }
+    #banner .icon_part {
+        gap: 28px;
+    }
+    #banner .img_part {
+        margin-top: 35px;
+    }
+    #banner .img_part::after {
+        top: -2px;
+        left: 70px;
+    }
+    #banner .img_part .img::before {
+        top: 16px;
+        right: 70px;
+    }
+    #banner .img_part .img img {
+        width: 60%;
+    }
+    #banner .img_part::before {
+        bottom: 16px;
+        left: 38px;
+    }
+    #banner .img_part .img::after {
+        bottom: 43px;
+        right: 35px;
+    }
+    /* Banner Part End */
+
+    /* About Part Start */
+    .sec_heading .head_text {
+        font-size: 32px;
+    }
+    .sec_heading img {
+        width: 196px;
+    }
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #about .img_part {
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+    #about .img_part .experience {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #08d665;
+        bottom: 0;
+        left: -46px;
+    }
+    #about .img_part .experience p {
+        font-size: 15px;
+    }
+    #about .img_part .experience p span {
+        font-size: 17px;
+    }
+    #about .img_part::after {
+        width: 65px;
+        height: 65px;
+        border: 1px solid #08d665;
+        top: -28px;
+        left: -29px;
+    }
+    #about .img_part::before {
+        bottom: -30px;
+        right: -27px;
+    }
+    #about .text_part{
+        margin-top: 40px;
+    }
+    #about .text_part p {
+        font-size: 13px;
+        width: 100%;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    #about .text_part .connect {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #about .text_part .connect a {
+        font-size: 13px;
+    }
+    #about .text_part .button {
+        gap: 12px;
+        margin-top: 20px;
+    }
+    /* About Part End */
+
+    /* Portfolio Part Start */
+    #portfolio{
+        padding-bottom: 60px;
+    }
+    #portfolio .po_item{
+        margin-bottom: 20px;
+    }
+    #portfolio .achivment{
+        padding-top: 40px;
+    }
+    #portfolio .achivment .item{
+        margin: 30px 0;
+    }
+    /* Portfolio Part End */
+
+    /* Blog Part Start */
+    #blog{
+        padding: 70px 0;
+    }
+    #blog .blog_item{
+        margin-bottom: 30px;
+    }
+    /* Blog Part End */
+        
+    /* Footer Part Start */
+    #footer{
+        padding: 15px 0;
+    }
+    /* Footer Part End */
+}
+@media(min-width: 768px) and (max-width: 991.98px) {
+    /* Navber Part Start */
+    #navber {
+        padding: 20px 0;
+    }
+    #navber .shape::before {
+        top: -22px;
+        left: -109px;
+    }
+    #navber .nav-link{
+        text-align: end;
+        margin: 7px 0;
+        margin-right: 10px;
+        padding-top: 0;
+    }
+    #navber .hire_me {
+        padding: 8px 19px;
+        margin-left: 0;
+        margin: 10px 0;
+        margin-right: 10px;
+        display: inline-block;
+        text-align: end;
+    }
+    #navber.sticky .hire_me {
+        padding: 8px 19px;
+        margin-left: 0;
+        margin: 10px 0;
+        display: inline-block;
+        text-align: end;
+        margin-right: 10px;
+    }
+    /* Navber Part End */
+
+    /* Banner Part Start */
+    #banner {
+        padding-bottom: 60px;
+    }
+    #banner .text_part h4 {
+        margin-bottom: 25px;
+    }
+    #banner .text_part h1 {
+        margin-bottom: 18px;
+    }
+    #banner .text_part h1::before {
+        right: 46px;
+        top: 66px;
+    }
+    #banner .text_part h1::after {
+        border: 2px dashed #08d665;
+        right: -7px;
+        top: -21px;
+    }
+    #banner .text_part h4::before {
+        left: 57%;
+        top: -37px;
+    }
+    #banner .text_part p {
+        width: 100%;
+        line-height: 26px;
+        margin-bottom: 33px;
+    }
+    #banner .icon_part {
+        gap: 28px;
+    }
+    #banner .img_part {
+        margin-top: 35px;
+    }
+    #banner .img_part::after {
+        top: -2px;
+        left: 70px;
+    }
+    #banner .img_part .img::before {
+        top: 16px;
+        right: 70px;
+    }
+    #banner .img_part .img img {
+        width: 60%;
+    }
+    #banner .img_part::before {
+        bottom: 16px;
+        left: 38px;
+    }
+    #banner .img_part .img::after {
+        bottom: 43px;
+        right: 35px;
+    }
+    /* Banner Part End */
+
+    /* About Part Start */
+    .sec_heading .head_text {
+        font-size: 32px;
+    }
+    .sec_heading img {
+        width: 196px;
+    }
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #about .img_part {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 31px;
+    }
+    #about .img_part .experience {
+        width: 120px;
+        height: 120px;
+        border: 3px solid #08d665;
+        bottom: 0;
+        left: -46px;
+    }
+    #about .img_part .experience p {
+        font-size: 16px;
+    }
+    #about .img_part .experience p span {
+        font-size: 21px;
+    }
+    #about .img_part::after {
+        width: 65px;
+        height: 65px;
+        border: 1px solid #08d665;
+        top: -28px;
+        left: -29px;
+    }
+    #about .img_part::before {
+        bottom: -30px;
+        right: -27px;
+    }
+    #about .text_part{
+        margin-top: 40px;
+    }
+    #about .text_part p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 26px;
+        padding-bottom: 25px;
+    }
+    #about .text_part .connect {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    #about .text_part .connect a {
+        font-size: 14px;
+    }
+    #about .text_part .button {
+        gap: 12px;
+        margin-top: 20px;
+    }
+    /* About Part End */
+    
+    /* Service Part Start */
+    #service .service_item {
+        padding: 35px 30px;
+    }
+    /* Service Part End */
+
+    /* Portfolio Part Start */
+    #portfolio{
+        padding-bottom: 60px;
+    }
+    #portfolio .po_item{
+        margin-bottom: 20px;
+    }
+    #portfolio .achivment{
+        padding-top: 40px;
+    }
+    #portfolio .achivment .item{
+        margin: 30px 0;
+    }
+    /* Portfolio Part End */
+
+    /* Blog Part Start */
+    #blog{
+        padding: 70px 0;
+    }
+    #blog .blog_item{
+        margin-bottom: 30px;
+    }
+    /* Blog Part End */
+
+    /* Footer Part Start */
+    #footer{
+        padding: 15px 0;
+    }
+    /* Footer Part End */
+}
+@media(min-width: 992px) and (max-width:1199.98px) {
+    #about .text_part .connect {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    #service .service_item {
+        padding: 50px 40px;
+    }
+}
+@media(min-width: 1200px) and (max-width:1399.98px) {
+
+}
